@@ -5,18 +5,27 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Bienvenue à Neuronnes Technologies.
+          <br />
+          <h4 style={{ paddingLeft: '20px', paddingRight: '20px' }}>
+            Neuronnes Technologies est une entreprise spécialisée dans la
+            création d'applications web et mobiles innovantes.
+          </h4>
+          <br />
+          <h4>
+            Veuillez vous inscrire avec vos informations personnelles.
+          </h4>
         </p>
-        <a
+        {/*<a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a>*/}
       </header>
     </div>
   );
